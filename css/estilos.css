@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	font-family: 'Muli', sans-serif !important;
+}
+
+.baldu-nav {
+	background-color: rgba(19, 39, 71, 0.6);
+	border-bottom: 4px solid #fff;
+}
+
+.baldu-nav img {
+	border: 1px solid #040;
+	border-radius: 3rem;
+}
+
+.reproductor{
+	font-size: 20px;
+	border-radius: 50rem !important;
+	background-color: rgba(19, 39, 71, 0.6);
+	color: #fff;
+	width: 20rem;
+}
+
+.reproductor:hover{
+	background-color: rgba(37, 64, 107, 0.4);
+}
+
+.reproductor:active {
+	background-color: red #fff;
+	color: rgba(37, 64, 107, 0.4);
+	border: 1px dashed #fff;
+}
